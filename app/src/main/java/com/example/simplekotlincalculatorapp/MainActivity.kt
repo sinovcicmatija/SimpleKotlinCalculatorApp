@@ -126,7 +126,7 @@ class MainActivity : ComponentActivity() {
                     }
                     '÷' ->
                     {
-                        newList.add(prevDigit * nextDigit)
+                        newList.add(prevDigit / nextDigit)
                         restartIndex = i + 1
                     }
                     else ->
